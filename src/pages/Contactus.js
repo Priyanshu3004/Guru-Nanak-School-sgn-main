@@ -20,10 +20,10 @@ function Contactus() {
         </div>
 
         {/* Unified Contact Container */}
-        <div className="flex justify-center mt-10 px-4">
+        <div className="flex justify-center mt-10 px-2 md:px-0">
           <div className="w-full max-w-3xl bg-gradient-to-br from-red-300 via-red-200 to- p-8 rounded-2xl shadow-2xl border border-[#0D6880] space-y-6">
             {/* Address */}
-            <div className="flex items-start gap-1">
+            <div className="flex items-start gap-2">
               <MapPin className="w-6 h-6 text-[#0D6880] mt-1" />
               <div>
                 <p className="text-lg font-semibold text-[#0D6880]">Address:</p>
@@ -34,7 +34,7 @@ function Contactus() {
             </div>
 
             {/* Phone */}
-            <div className="flex items-start gap-4">
+            <div className="flex items-start gap-2">
               <Phone className="w-6 h-6 text-[#0D6880] mt-1" />
               <div>
                 <p className="text-lg font-semibold text-[#0D6880]">Phone:</p>
