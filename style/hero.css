@@ -1,0 +1,67 @@
+@media only screen and (max-width: 600px) {
+    .d-block {
+      width: 100%;
+      height: 40em;
+    }
+  }
+
+
+/* 
+.bg-overlay {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+} */
+
+
+.image2 {
+  display: none;
+}
+.d-block {
+  display: block ;
+}
+@media only screen and (max-width: 500px) {
+  .image1 {
+    display: none;
+  }
+
+  .image2 {
+    display: block;
+  }
+
+  /* .addmission {
+
+    position: relative;
+    bottom: 12em;
+
+  } */
+}
+
+.none2 {
+  display: none;
+}
+.d-block {
+  display: block ;
+}
+@media only screen and (max-width: 500px) {
+  .none1 {
+    display: none;
+  }
+
+  .none2 {
+    display: block;
+  }
+}
+
+
+
+/* .car{
+  height: 50em;
+  width: 100%;
+  overflow: hidden;
+  
+} */
